@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48FD59C51D75190D0021C3FF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48FD59C41D75190D0021C3FF /* main.cpp */; };
 		48FD59D51D751A840021C3FF /* csce310hw001pt01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48FD59CB1D751A840021C3FF /* csce310hw001pt01.cpp */; };
 		48FD59D61D751A840021C3FF /* csce310hw001pt02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48FD59CD1D751A840021C3FF /* csce310hw001pt02.cpp */; };
 		48FD59D71D751A840021C3FF /* test01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48FD59D31D751A840021C3FF /* test01.cpp */; };
@@ -28,7 +27,6 @@
 
 /* Begin PBXFileReference section */
 		48FD59C11D75190D0021C3FF /* CSCE 310 Homework01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CSCE 310 Homework01"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48FD59C41D75190D0021C3FF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		48FD59CB1D751A840021C3FF /* csce310hw001pt01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = csce310hw001pt01.cpp; path = "../../../CSCE 310 Data Structures & Algorithms/Homework01/csce310hw001pt01.cpp"; sourceTree = "<group>"; };
 		48FD59CC1D751A840021C3FF /* csce310hw001pt01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = csce310hw001pt01.h; path = "../../../CSCE 310 Data Structures & Algorithms/Homework01/csce310hw001pt01.h"; sourceTree = "<group>"; };
 		48FD59CD1D751A840021C3FF /* csce310hw001pt02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = csce310hw001pt02.cpp; path = "../../../CSCE 310 Data Structures & Algorithms/Homework01/csce310hw001pt02.cpp"; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		48FD59C31D75190D0021C3FF /* CSCE 310 Homework01 */ = {
 			isa = PBXGroup;
 			children = (
-				48FD59C41D75190D0021C3FF /* main.cpp */,
 				48FD59CB1D751A840021C3FF /* csce310hw001pt01.cpp */,
 				48FD59CC1D751A840021C3FF /* csce310hw001pt01.h */,
 				48FD59CD1D751A840021C3FF /* csce310hw001pt02.cpp */,
@@ -144,7 +141,6 @@
 			files = (
 				48FD59D71D751A840021C3FF /* test01.cpp in Sources */,
 				48FD59D51D751A840021C3FF /* csce310hw001pt01.cpp in Sources */,
-				48FD59C51D75190D0021C3FF /* main.cpp in Sources */,
 				48FD59D81D751A840021C3FF /* test02.cpp in Sources */,
 				48FD59D61D751A840021C3FF /* csce310hw001pt02.cpp in Sources */,
 			);
@@ -267,6 +263,7 @@
 				48FD59CA1D75190D0021C3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
